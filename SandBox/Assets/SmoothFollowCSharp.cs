@@ -36,9 +36,9 @@ public class SmoothFollowCSharp : MonoBehaviour
          return;
  
        // Calculate the current rotation angles
-       float wantedRotationAngle = target.eulerAngles.y;//was .y
+       float wantedRotationAngle = target.eulerAngles.x;//was .y
        float wantedHeight = target.position.y + height;
-       float currentRotationAngle = transform.eulerAngles.y;
+       float currentRotationAngle = transform.eulerAngles.x;
        float currentHeight = transform.position.y;
  
        // Damp the rotation around the y-axis

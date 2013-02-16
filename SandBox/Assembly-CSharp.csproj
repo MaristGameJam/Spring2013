@@ -48,11 +48,11 @@
      <Compile Include="Assets\LegA.cs" />
      <Compile Include="Assets\LegD.cs" />
      <Compile Include="Assets\LegE.cs" />
+     <Compile Include="Assets\LegQ.cs" />
      <Compile Include="Assets\PlaySound.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\SmoothFollowCSharp.cs" />
      <Compile Include="Assets\cubeMove.cs" />
-     <Compile Include="Assets\legQ.cs" />
      <Compile Include="Assets\rotateCylinder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
