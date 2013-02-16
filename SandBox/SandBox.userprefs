@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SmoothFollowCSharp.cs">
+    <Files>
+      <File FileName="Assets\rotateCylinder.cs" Line="21" Column="1" />
+      <File FileName="Assets\SmoothFollowCSharp.cs" Line="30" Column="41" />
+      <File FileName="Assets\PlayerHealth.cs" Line="24" Column="32" />
+      <File FileName="Assets\cubeMove.cs" Line="19" Column="4" />
+      <File FileName="Assets\LegD.cs" Line="16" Column="35" />
+      <File FileName="Assets\LegA.cs" Line="16" Column="35" />
+      <File FileName="Assets\LegE.cs" Line="16" Column="35" />
+      <File FileName="Assets\LegQ.cs" Line="16" Column="35" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
