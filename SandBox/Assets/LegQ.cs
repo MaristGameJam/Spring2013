@@ -12,7 +12,7 @@ public class LegQ : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.Q)){
+		if(Input.GetKeyDown(KeyCode.Q) && !DogBehavior.makeGUI && (PlayerHealth.curHealth >2)){
 			transform.Rotate (new Vector3(-5,0,0));
 			PlayerHealth.AdjustCurrentHealth(1);
 		}

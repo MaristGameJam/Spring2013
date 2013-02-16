@@ -12,7 +12,7 @@ float targetAngle;
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.A)){
+		if(Input.GetKeyDown(KeyCode.A) && !DogBehavior.makeGUI && (PlayerHealth.curHealth >2)){
 			transform.Rotate (new Vector3(-5,0,0));
 			PlayerHealth.AdjustCurrentHealth(1);
 		}

@@ -6,7 +6,7 @@ public static int maxHealth = 100;
 public static int curHealth = 100;
 public static float healthBarLength;
 public static float hpY;
-	
+
 //public Texture2D hpbar;
  
 	// Use this for initialization
