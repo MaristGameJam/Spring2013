@@ -14,6 +14,7 @@ public class LegQ : MonoBehaviour {
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.Q)){
 			transform.Rotate (new Vector3(-5,0,0));
+			PlayerHealth.AdjustCurrentHealth(1);
 		}
 	}
 }

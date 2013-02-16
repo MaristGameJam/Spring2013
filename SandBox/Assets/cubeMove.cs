@@ -10,6 +10,7 @@ public class cubeMove : MonoBehaviour {
 	void Update () {
 		if(Input.GetAxis("Horizontal") > 0){
 			transform.Translate(0,-1,0);
+			PlayerHealth.AdjustCurrentHealth(1);
 		}
 		if(Input.GetAxis("Horizontal") < 0){
 			transform.Translate(0,1,0);

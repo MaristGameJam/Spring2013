@@ -14,6 +14,7 @@ float targetAngle;
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.E)){
 			transform.Rotate (new Vector3(-5,0,0));
+			PlayerHealth.AdjustCurrentHealth(1);
 		}
 	}
 }
