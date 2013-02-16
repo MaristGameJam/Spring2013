@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DogBehavior.cs" />
      <Compile Include="Assets\DogMove.cs" />
      <Compile Include="Assets\LegA.cs" />
      <Compile Include="Assets\LegD.cs" />
@@ -53,7 +54,6 @@
      <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\SmoothFollowCSharp.cs" />
      <Compile Include="Assets\cubeMove.cs" />
-     <Compile Include="Assets\rotateCylinder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

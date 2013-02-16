@@ -6,7 +6,7 @@ public int maxHealth = 100;
 public int curHealth = 100;
 public float healthBarLength;
 public float hpY;
-	
+public static bool mydadsnotaphone;
 	
 //public Texture2D hpbar;
  
@@ -14,6 +14,7 @@ public float hpY;
 	void Start () {
 		healthBarLength = Screen.height / 2;
 		hpY = 10;
+		mydadsnotaphone = false;
 		//hpbar = new Texture2D(60, (int)healthBarLength);
 		//hpbar = Resources.Load("hp", typeof(Texture2D)) as Texture2D;
 	}
@@ -21,8 +22,9 @@ public float hpY;
 	// Update is called once per frame
 	void Update () {
 		//AdjustCurrentHealth (0);
-		if(Input.GetButtonDown("Jump")){
+		if(mydadsnotaphone){
 			AdjustCurrentHealth (10); //number can be tweaked
+			mydadsnotaphone = false;
 		}
 	}
 	void OnGUI(){
@@ -31,6 +33,10 @@ public float hpY;
 		//GUI.Box(new Rect((Screen.width-260),10,250,65), "Quest Log: \n\nGet someone to do your homework");
 	}
  
+	public static void takeDamage(){
+		mydadsnotaphone = true;
+	}
+	
 	public void AdjustCurrentHealth(int adj) {
 		curHealth -= adj;
  
@@ -44,6 +50,5 @@ public float hpY;
 		healthBarLength = (Screen.height / 2) * (curHealth / (float)maxHealth);
 		hpY -= (healthBarLength - oldHBL);
 	}
- 
 
 }

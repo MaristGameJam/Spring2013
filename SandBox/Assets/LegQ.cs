@@ -2,12 +2,12 @@ using UnityEngine;
 using System.Collections;
 
 public class LegQ : MonoBehaviour {
-float targetAngle;
-ConfigurableJoint c = new ConfigurableJoint();
+//float targetAngle;
+//ConfigurableJoint c = new ConfigurableJoint();
 	
 	// Use this for initialization
 	void Start () {
-		targetAngle = 0;
+		//targetAngle = 0;
 	}
 	
 	// Update is called once per frame
