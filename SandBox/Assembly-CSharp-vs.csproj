@@ -45,12 +45,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DogBehavior.cs" />
-     <Compile Include="Assets\DogMove.cs" />
      <Compile Include="Assets\LegA.cs" />
      <Compile Include="Assets\LegD.cs" />
      <Compile Include="Assets\LegE.cs" />
      <Compile Include="Assets\LegQ.cs" />
-     <Compile Include="Assets\PlaySound.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\SmoothFollowCSharp.cs" />
      <Compile Include="Assets\cubeMove.cs" />
