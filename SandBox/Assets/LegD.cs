@@ -13,7 +13,7 @@ ConfigurableJoint c = new ConfigurableJoint();
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.D)){
-			transform.Rotate (new Vector3(-10,0,0));
+			transform.Rotate (new Vector3(-5,0,0));
 		}
 	}
 }
